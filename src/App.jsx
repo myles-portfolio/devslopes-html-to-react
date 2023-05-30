@@ -1,6 +1,6 @@
 import { Header } from "./components/Header";
 import { Table } from "./components/Table";
-import { CharacterCard } from "./components/CharacterCard";
+import { CharacterCards } from "./components/CharacterCards";
 import { characters } from "./data";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 					<Table data={characters} />
 				</section>
 				<section id="character-cards">
-					<CharacterCard data={characters} />
+					<CharacterCards data={characters} />
 				</section>
 			</main>
 		</>

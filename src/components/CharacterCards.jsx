@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/card.css";
 
-export class CharacterCard extends React.Component {
+export class CharacterCards extends React.Component {
 	render() {
 		const { data } = this.props;
 

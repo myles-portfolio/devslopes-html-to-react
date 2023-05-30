@@ -1,7 +1,7 @@
 import "../css/table.css";
 
 export function Table({ data }) {
-	const sortedCharacters = data.sort((a, b) => b.votes - a.votes);
+	const sortedCharacters = [...data].sort((a, b) => b.votes - a.votes);
 	const topCharacters = sortedCharacters.slice(0, 5);
 
 	return (
